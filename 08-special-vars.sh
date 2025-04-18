@@ -8,4 +8,5 @@ echo "Home directory of current user: $HOME"
 echo "Which user is running script: $USER"
 echo "Host name: $HOSTNAME"
 echo "Process ID of current shell script: $$"
-sleep 60
+sleep 60 & # & is used to send the command to background
+echo "Process ID of last background command: $!"
