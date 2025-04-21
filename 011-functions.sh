@@ -43,5 +43,4 @@ VALIDATE $? "Installing Git"
 #     echo "Installation of Git...SUCCESS"
 # fi
 
-echo "Is script proceeding?"
 
