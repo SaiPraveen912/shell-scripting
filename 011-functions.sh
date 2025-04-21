@@ -23,7 +23,7 @@ else
 fi
 
 
-dnf install mysql -y
+dnf install mysqll -y
 VALIDATE $? "Insatlling MySQL" 
 # if [ $? -ne 0 ]
 # then
