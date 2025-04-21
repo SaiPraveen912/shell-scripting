@@ -10,3 +10,5 @@ else
 fi
 
 dnf install mysql -y
+
+scho "Is script proceeding?"
