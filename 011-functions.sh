@@ -23,7 +23,7 @@ else
 fi
 
 
-dnf install mysqll -y
+dnf install mysql -y
 VALIDATE $? "Insatlling MySQL" 
 # if [ $? -ne 0 ]
 # then
@@ -33,7 +33,7 @@ VALIDATE $? "Insatlling MySQL"
 #     echo "Installation of MySQL...SUCCESS"
 # fi
 
-dnf install git -y
+dnf install gitt -y
 VALIDATE $? "Installing Git"
 # if [ $? -ne 0 ]
 # then
