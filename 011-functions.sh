@@ -17,6 +17,7 @@ VALIDATE(){
 if [ $USER -ne 0 ]
 then
     echo "PLease run the script with super user"
+    exit 1
 else
     echo "You are super user"
 fi
