@@ -33,7 +33,7 @@ VALIDATE $? "Insatlling MySQL"
 #     echo "Installation of MySQL...SUCCESS"
 # fi
 
-dnf install gitt -y
+dnf install git -y
 VALIDATE $? "Installing Git"
 # if [ $? -ne 0 ]
 # then
