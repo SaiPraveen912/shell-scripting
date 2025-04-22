@@ -29,7 +29,7 @@ fi
 
 for i in $@ # $@ all variables passed in command line like --> mysql, git etc packages
 do 
-    echo "Package to insatll: $i"
+    echo "Package to install: $i"
     dnf list installed $i &>> $LOGFILE
     if [ $? -eq 0 ]
     then
