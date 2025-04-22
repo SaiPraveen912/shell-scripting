@@ -51,3 +51,6 @@ VALIDATE $? "Installing Git"
 # else 
 #     echo "Installation of Git...SUCCESS"
 # fi
+
+dnf install dockerr -y &>> LOGFILE
+VALIDATE $? "Installing Docker"
