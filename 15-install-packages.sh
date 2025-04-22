@@ -13,4 +13,5 @@ fi
 for i in $@
 do 
     echo "Package to insatll: $i"
+    dnf list installed $i
 done
