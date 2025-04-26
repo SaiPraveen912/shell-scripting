@@ -30,8 +30,9 @@ do
     if [ $? -eq 0 ]
     then
         echo "$i already installed...SKIPPING"
-        VALIDATE $? "Installation of $i"
+        # VALIDATE $? "Installation of $i"
     else
-        dnf install $i -y &>>$LOGFILE
+        # dnf install $i -y &>>$LOGFILE
+        echo "$i not installed...Need to install"
     fi
 done
